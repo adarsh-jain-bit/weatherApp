@@ -1,0 +1,16 @@
+// if i want to use normal function then i have to bind in constructor
+  // this.getLocation = this.getLocation.bind(this);
+  // this.showPosition = this.showPosition.bind(this);
+
+
+
+ // i can use normal function but i need to bind this in the constructot to get the desire result because in normal function this losses inside the function so we have to explicitly bind(this) in the constructor method
+// getLocation() {
+//     if (navigator.geolocation) {
+//     navigator.geolocation.getCurrentPosition(this.showPosition.bind(this));
+//     }
+//    }
+//   showPosition(position) {
+//     this.handleFetch2(position.coords.latitude,position.coords.longitude)
+//   }
+  // doubt that the arrow function work but not normal function
